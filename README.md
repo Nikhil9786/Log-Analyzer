@@ -30,9 +30,9 @@ This Python command-line tool is designed to analyze Juju debug log files. It pr
 
 ---
 
-### Code Approach
+## Code Approach
 
-### Main Components of the Code
+**Main Components of the Code**
 
 1. **Log Line Pattern**:
    
