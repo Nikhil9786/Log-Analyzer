@@ -70,7 +70,9 @@ To run the Juju Log Analyzer, follow these steps:
 
    Once the log file is processed, the code displays the collected data in a structured format. This includes showing the warnings for each charm, the counts of different severity levels, the counts of duplicate messages, proportions of each message type, and the total message count.
 
+---
 
+### End Notes
 This code is valuable for monitoring and troubleshooting Juju deployments, providing insights into log messages, and assisting in maintaining the health of cloud orchestration systems. For better production use, we can consider additional improvements such as error handling, unit testing, packaging, security measures, and integration with monitoring systems.
 The whole project took me 5 hours of work which includes researching about Juju(first time working with this), log files, debugging, programming and testing.
 
