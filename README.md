@@ -4,16 +4,6 @@ This Python command-line tool is designed to analyze Juju debug log files. It pr
 
 ---
 
-## Installation
-
-1. Ensure you have Python 3 installed on your system.
-
-2. Download or clone this repository to your local machine.
-
-3. Navigate to the directory containing the `juju_log_analyzer.py` script.
-
----
-
 ## Assumptions
 
 - The log file is accessible and has appropriate read permissions.
@@ -23,11 +13,13 @@ This Python command-line tool is designed to analyze Juju debug log files. It pr
 
 ## How to Run
 
-To run the Juju Log Analyzer, follow these steps:
+1. Ensure you have Python 3 installed on your system.
 
-1. Open a terminal and navigate to the directory containing the `juju_log_analyzer.py` script.
+2. Download or clone this repository to your local machine.
 
-2. Run the script with the following command, replacing `<path_to_log_file>` with the actual path to your Juju debug log file and `<charm_name>` with a charm name to filter by:
+3. Open a terminal and navigate to the directory containing the `juju_log_analyzer.py` script.
+
+4. Run the script with the following command, replacing `<path_to_log_file>` with the actual path to your Juju debug log file and `<charm_name>` with a charm name to filter by:
 
    ```bash
    python juju_log_analyzer.py <path_to_log_file> --charm <charm_name>
@@ -35,8 +27,6 @@ To run the Juju Log Analyzer, follow these steps:
 
    - `<path_to_log_file>`: The full path to your Juju debug log file.
    - `<charm_name>`: The charm name to filter logs by. If omitted, logs for all charms will be analyzed.
-
-3. The script will display the results, including warnings per charm, severity counts, duplicate message counts, proportions of each message type, and total message counts.
 
 ---
 
